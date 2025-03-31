@@ -1,5 +1,5 @@
 const wcID = e => document.getElementById(e),
-    wcU = "yhhu.xyz",
+    wcU = "yihui-hu.github.io",
     newRequest = function(e = !0) {
         fetch("https://api.websitecarbon.com/b?url=" + wcU).then((function(e) {
             if (!e.ok) throw Error(e);
