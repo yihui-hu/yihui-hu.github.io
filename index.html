@@ -1,111 +1,143 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <title>Hu Yihui</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        * {
-            box-sizing: border-box;
-        }
+      * {
+        box-sizing: border-box;
+      }
 
-        /* Create two equal columns that floats next to each other */
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout */
+      @media screen and (max-width: 1024px) {
         .column {
-            float: left;
-            width: 33%;
+          width: 100%;
         }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /* Responsive layout */
-        @media screen and (max-width: 1024px) {
-            .column {
-                width: 100%;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="indexbg"></div>
     <div class="content">
-        <div class="container" style="margin-bottom: 5vh">
-            <a class="main" style="font-size:1.05rem; margin-right: 2em;" href="./pages/about.html">☀&#xFE0E; about</a>
-            <a class="main" style="font-size:1.05rem; margin-right: 2em;" href="./pages/projects.html">✦&#xFE0E; works</a>
-            <a class="main" style="font-size:1.05rem;" href="./pages/notes.html">❉&#xFE0E; notes</a>
-            <!-- <button class="theme" id="theme-toggle" onclick="modeSwitcher()"></a> -->
+      <div class="container" style="margin-bottom: 5vh">
+        <a
+          class="main"
+          style="font-size: 1.05rem; margin-right: 2em"
+          href="./pages/about.html"
+          >☀&#xFE0E; about</a
+        >
+        <a
+          class="main"
+          style="font-size: 1.05rem; margin-right: 2em"
+          href="./pages/projects.html"
+          >✦&#xFE0E; works</a
+        >
+        <a class="main" style="font-size: 1.05rem" href="./pages/notes.html"
+          >❉&#xFE0E; notes</a
+        >
+        <!-- <button class="theme" id="theme-toggle" onclick="modeSwitcher()"></a> -->
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <p class="index">who</p>
+          <p class="indexcopy">yihui</p>
+
+          <p class="index">what</p>
+          <p class="indexcopy">design & cs</p>
+
+          <p class="index">where</p>
+          <p class="indexcopy">singapore / usa</p>
+
+          <p class="index">how</p>
+          <p class="indexcopy">huh</p>
+
+          <p class="index">currently</p>
+          <p class="indexcopy">enjoying life</p>
+
+          <p class="index">last updated</p>
+          <p class="indexcopy" style="margin-bottom: 1em">mar 01 2023</p>
         </div>
 
-        <div class="row">
-            <div class="column">
-                <p class="index">who</p>
-                <p class="indexcopy">yihui</p>
+        <!-- spacer-->
 
-                <p class="index">what</p>
-                <p class="indexcopy">design & cs</p>
-
-                <p class="index">where</p>
-                <p class="indexcopy">singapore / usa</p>
-
-                <p class="index">how</p>
-                <p class="indexcopy">huh</p>
-
-                <p class="index">currently</p>
-                <p class="indexcopy">enjoying life</p>
-
-                <p class="index">last updated</p>
-                <p class="indexcopy" style="margin-bottom:1em">mar 01 2023</p>
-            </div>
-
-            <!-- spacer-->
-
-            <div class="column">
-                <p></p>
-            </div>
-
-            <div class="column">
-                <p class="index" style="margin-bottom: 1.7vh">other sites</p>
-                <p class="indexcopy" style="margin-bottom: 2em; line-height: 140%;">
-                    <a class="index" href="https://yhhu.design" target="_blank">(1) yhhu.design</a>
-                    <br>
-                    <a class="index" href="https://henesys.online" target="_blank">(2) henesys</a>
-                    <br>
-                    <a class="index" href="https://arith.vercel.app" target="_blank">(3) arithJS</a>
-                    <br>
-                    <a class="index" href="https://pokesearch.xyz" target="_blank">(4) pokéSearch</a>
-                    <br>
-                </p>
-
-                <p class="index" style="margin-bottom: 1.7vh">selected works</p>
-                <p class="indexcopy" style="margin-bottom: 2em; line-height: 140%;">
-                    <a class="index" href="./pages/projects/zinedef.html">(1) ZINEDEF</a>
-                    <br>
-                    <a class="index" href="./pages/projects/20xx.html">(2) 20XX catalogue of flora & fauna</a>
-                    <br>
-                    <a class="index" href="./pages/projects/graphite.html">(3) Graphite Reproductions</a>
-                    <br>
-                    <a class="index" href="./pages/projects/everyday.html">(4) Everyday____</a>
-                </p>
-
-                <p class="index" style="margin-bottom: 1.7vh">selected notes</p>
-                <p class="indexcopy" style="margin-bottom: 25vh; line-height: 140%;">
-                    <a class="index" href="./pages/notes/060922_pokeSearch.html">(1) Building pokéSearch</a>
-                    <br>
-                    <a class="index" href="./pages/notes/290422_telescopingtext.html">(2) Telescoping notes</a>
-                    <br>
-                    <a class="index" href="./pages/notes/280422_famicase.html">(3) Famicase 2022</a>
-                    <br>
-                </p>
-            </div>
+        <div class="column">
+          <p></p>
         </div>
+
+        <div class="column">
+          <p class="index" style="margin-bottom: 1.7vh">other sites</p>
+          <p class="indexcopy" style="margin-bottom: 2em; line-height: 140%">
+            <a class="index" href="https://yhhu.design" target="_blank"
+              >(1) yhhu.design</a
+            >
+            <br />
+            <a class="index" href="https://henesys.online" target="_blank"
+              >(2) henesys</a
+            >
+            <br />
+            <a class="index" href="https://arith.vercel.app" target="_blank"
+              >(3) arithJS</a
+            >
+            <br />
+            <a class="index" href="https://pokesearch.xyz" target="_blank"
+              >(4) pokéSearch</a
+            >
+            <br />
+          </p>
+
+          <p class="index" style="margin-bottom: 1.7vh">selected works</p>
+          <p class="indexcopy" style="margin-bottom: 2em; line-height: 140%">
+            <a class="index" href="./pages/projects/zinedef.html"
+              >(1) ZINEDEF</a
+            >
+            <br />
+            <a class="index" href="./pages/projects/20xx.html"
+              >(2) 20XX catalogue of flora & fauna</a
+            >
+            <br />
+            <a class="index" href="./pages/projects/graphite.html"
+              >(3) Graphite Reproductions</a
+            >
+            <br />
+            <a class="index" href="./pages/projects/everyday.html"
+              >(4) Everyday____</a
+            >
+          </p>
+
+          <p class="index" style="margin-bottom: 1.7vh">selected notes</p>
+          <p class="indexcopy" style="margin-bottom: 25vh; line-height: 140%">
+            <a class="index" href="./pages/notes/060922_pokeSearch.html"
+              >(1) Building pokéSearch</a
+            >
+            <br />
+            <a class="index" href="./pages/notes/290422_telescopingtext.html"
+              >(2) Telescoping notes</a
+            >
+            <br />
+            <a class="index" href="./pages/notes/280422_famicase.html"
+              >(3) Famicase 2022</a
+            >
+            <br />
+          </p>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
