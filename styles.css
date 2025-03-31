@@ -108,14 +108,14 @@ div.indexbg {
 p.index {
   /* index 'prompts' */
   color: var(--header-color);
-  font-family: "printveticaregular", Helvetica, Arial;
+  font-family: "Printvetica", Helvetica, Arial;
   font-style: bold;
   font-size: 1.05rem;
 }
 
 p.indexcopy {
   /* index copy */
-  font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.1px;
   color: var(--text-color);
   line-height: 50%;
@@ -127,7 +127,7 @@ p.indexcopy {
 a.index {
   /* index works/notes links */
   color: var(--text-color);
-  font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 50%;
   font-size: 1.35rem;
 }
@@ -152,7 +152,7 @@ body.copy {
 
 .header {
   color: var(--header-color);
-  font-family: "printveticaregular", Helvetica, Arial;
+  font-family: "Printvetica", Helvetica, Arial;
   font-size: 1.05rem;
 }
 
@@ -191,7 +191,7 @@ a.inline:hover {
 a.main {
   /* general nav links */
   color: var(--index-header-color);
-  font-family: "printveticaregular", Helvetica, Arial;
+  font-family: "Printvetica", Helvetica, Arial;
   font-size: 1.05rem;
   margin-right: 1.5em;
 }
@@ -199,7 +199,7 @@ a.main {
 a.inline {
   /* general nav links */
   color: var(--index-header-color);
-  font-family: "printveticaregular", Helvetica, Arial;
+  font-family: "Printvetica", Helvetica, Arial;
   font-size: 1.05rem;
 }
 
@@ -324,7 +324,7 @@ table th {
 }
 
 button.btn {
-  font-family: "printveticaregular";
+  font-family: "Printvetica", Helvetica, Arial;
   color: var(--text-color);
   font-size: 0.95rem;
   margin-right: 0.5rem;
@@ -357,17 +357,8 @@ button.btn.active {
 /* FONTS */
 
 @font-face {
-  font-family: "printveticaregular";
-  src: url("./fonts/printvetica-webfont.woff2") format("woff2"),
-    url("./fonts/printvetica-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adobe Caslon Pro";
-  src: url("./fonts/ACaslonPro-Regular.woff2") format("woff2"),
-    url("./fonts/ACaslonPro-Regular.woff") format("woff");
+  font-family: "Printvetica";
+  src: url("./fonts/Printvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
