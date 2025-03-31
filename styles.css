@@ -358,7 +358,8 @@ button.btn.active {
 
 @font-face {
   font-family: "Printvetica";
-  src: url("./fonts/Printvetica.woff") format("woff");
+  src: url("./fonts/Printvetica.woff2") format("woff2"),
+    url("./fonts/Printvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
