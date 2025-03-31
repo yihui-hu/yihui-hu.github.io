@@ -1,130 +1,191 @@
 <!DOCTYPE html>
 <html class="centered" lang="en" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>notes</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
-</head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
 
-<body class="copy">
+  <body class="copy">
     <div class="container">
-        <div id="buttonContainer">
-            <button class="btn active" onclick="filterSelection('all')"> all</button>
-            <button class="btn" onclick="filterSelection('cs')"> comp sci</button>
-            <button class="btn" onclick="filterSelection('art')"> design</button>
-            <button class="btn" onclick="filterSelection('thoughts')"> thoughts</button>
-            <!-- <button class="theme" style="float: right" id="theme-toggle" onclick="modeSwitcher()"></a> -->
-        </div>
-        <p></p>
+      <div id="buttonContainer">
+        <button class="btn active" onclick="filterSelection('all')">all</button>
+        <button class="btn" onclick="filterSelection('cs')">comp sci</button>
+        <button class="btn" onclick="filterSelection('art')">design</button>
+        <button class="btn" onclick="filterSelection('thoughts')">
+          thoughts
+        </button>
+        <!-- <button class="theme" style="float: right" id="theme-toggle" onclick="modeSwitcher()"></a> -->
+      </div>
+      <p></p>
 
-        <!-- 2023 -->
+      <!-- 2023 -->
 
-        <div class="filterDiv thoughts art cs header">
-            <br>
-            2023
-        </div>
-        <br>
-        
-        <table>
-            <tr class="filterDiv cs art thoughts" style="margin-bottom: 0.5rem">
-                <td style="border: none">01/03</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/010323_briefupdate.html">a brief update</a>
-                </td>
-            </tr>
-        </table>
+      <div class="filterDiv thoughts art cs header">
+        <br />
+        2023
+      </div>
+      <br />
 
-        <!-- 2022 -->
+      <table>
+        <tr class="filterDiv cs art thoughts" style="margin-bottom: 0.5rem">
+          <td style="border: none">01/03</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/010323_briefupdate.html"
+              >a brief update</a
+            >
+          </td>
+        </tr>
+      </table>
 
-        <div class="filterDiv thoughts art cs header">
-            <br>
-            2022
-        </div>
-        <br>
-        
-        <table>
-            <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
-                <td style="border: none">20/09</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/060922_pokeSearch.html">building a pseudo pokedex</a>
-                </td>
-            </tr>
+      <!-- 2022 -->
 
-            <tr class="filterDiv thoughts" style="margin-bottom: 0.5rem">
-                <td style="border: none">03/09</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/030922_backtoschool.html">end of summer</a>
-                </td>
-            </tr>
+      <div class="filterDiv thoughts art cs header">
+        <br />
+        2022
+      </div>
+      <br />
 
-            <tr class="filterDiv cs thoughts" style="margin-bottom: 0.5rem">
-                <td style="border: none">20/06</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/200622_neuralnetworks.html">quick notes on neural nets</a>
-                </td>
-            </tr>
+      <table>
+        <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
+          <td style="border: none">20/09</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/060922_pokeSearch.html"
+              >building a pseudo pokedex</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs art" style="margin-bottom: 0.5rem">
-                <td style="border: none">15/06</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/150622_todotoday.html">todo-today</a>
-                </td>
-            </tr>
+        <tr class="filterDiv thoughts" style="margin-bottom: 0.5rem">
+          <td style="border: none">03/09</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/030922_backtoschool.html"
+              >end of summer</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
-                <td style="border: none">19/05</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/190522_javascriptpractice.html">javascript practice?</a>
-                </td>
-            </tr>
+        <tr class="filterDiv cs thoughts" style="margin-bottom: 0.5rem">
+          <td style="border: none">20/06</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/200622_neuralnetworks.html"
+              >quick notes on neural nets</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs thoughts art" style="margin-bottom: 0.5rem">
-                <td style="border: none">02/05</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/020522_cargosite.html">cargo vs. github pages</a>
-                </td>
-            </tr>
+        <tr class="filterDiv cs art" style="margin-bottom: 0.5rem">
+          <td style="border: none">15/06</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/150622_todotoday.html"
+              >todo-today</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
-                <td style="border: none">30/04</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/300422_readtimeestimate.html">read time estimate</a>
-                </td>
-            </tr>
+        <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
+          <td style="border: none">19/05</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/190522_javascriptpractice.html"
+              >javascript practice?</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv thoughts" style="margin-bottom: 0.5rem">
-                <td style="border: none">29/04</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/290422_telescopingtext.html">telescoping notes</a>
-                </td>
-            </tr>
+        <tr class="filterDiv cs thoughts art" style="margin-bottom: 0.5rem">
+          <td style="border: none">02/05</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/020522_cargosite.html"
+              >cargo vs. github pages</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv art" style="margin-bottom: 0.5rem">
-                <td style="border: none">28/04</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/280422_famicase.html">famicase 2022</a>
-                </td>
-            </tr>
+        <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
+          <td style="border: none">30/04</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/300422_readtimeestimate.html"
+              >read time estimate</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
-                <td style="border: none">27/04</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/280422_texttohtml.html">text to html</a>
-                </td>
-            </tr>
+        <tr class="filterDiv thoughts" style="margin-bottom: 0.5rem">
+          <td style="border: none">29/04</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/290422_telescopingtext.html"
+              >telescoping notes</a
+            >
+          </td>
+        </tr>
 
-            <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
-                <td style="border: none">25/04</td>
-                <td style="border: none">
-                    <a class="inline" style="margin-left: 2.5rem" href="../pages/notes/250422_hashtables.html">hash tables</a>
-                </td>
-            </tr>
-        </table>
+        <tr class="filterDiv art" style="margin-bottom: 0.5rem">
+          <td style="border: none">28/04</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/280422_famicase.html"
+              >famicase 2022</a
+            >
+          </td>
+        </tr>
 
-        <!-- 2021 -->
-        <!-- <div class=" filterDiv thoughts header">
+        <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
+          <td style="border: none">27/04</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/280422_texttohtml.html"
+              >text to html</a
+            >
+          </td>
+        </tr>
+
+        <tr class="filterDiv cs" style="margin-bottom: 0.5rem">
+          <td style="border: none">25/04</td>
+          <td style="border: none">
+            <a
+              class="inline"
+              style="margin-left: 2.5rem"
+              href="../pages/notes/250422_hashtables.html"
+              >hash tables</a
+            >
+          </td>
+        </tr>
+      </table>
+
+      <!-- 2021 -->
+      <!-- <div class=" filterDiv thoughts header">
                 <br>
                 2021
             </div>
@@ -134,8 +195,8 @@
                 <p class="filterDiv thoughts">28/01<a style="margin-left: 3em" class="inline" href="../pages/notes/280121_chasingdusk.html">chasing blue dusk</a></p>
             </div> -->
 
-        <!-- 2020 -->
-        <!-- <div class="filterDiv art thoughts header">
+      <!-- 2020 -->
+      <!-- <div class="filterDiv art thoughts header">
                 <br>
                 2020
             </div>
@@ -145,8 +206,8 @@
                 <p class="filterDiv thoughts">09/08<a style="margin-left: 3em" class="inline" href="../pages/notes/090820_darkforest.html">reflections on the dark forest</a></p>
             </div> -->
 
-        <!-- 2019 -->
-        <!-- <div class="filterDiv thoughts header">
+      <!-- 2019 -->
+      <!-- <div class="filterDiv thoughts header">
                 <br>
                 2019
             </div>
@@ -158,8 +219,8 @@
                 <p class="filterDiv thoughts">30/04<a style="margin-left: 3em" class="inline" href="../pages/notes/130319_trainlounge.html">train lounge</a></p>
             </div> -->
 
-        <!-- 2018 -->
-        <!-- <div class="filterDiv thoughts header">
+      <!-- 2018 -->
+      <!-- <div class="filterDiv thoughts header">
                 <br>
                 2018
             </div>
@@ -169,10 +230,10 @@
                 <p class="filterDiv thoughts">31/10<a style="margin-left: 3em" class="inline" href="../pages/notes/311018_crowdlag.html">walking in crowds</a></p>
             </div> -->
 
-        <p></p><br>
-        <a class="main" href="../index.html">⁖ return to main page</a>
+      <p></p>
+      <br />
+      <a class="main" href="../index.html">⁖ return to main page</a>
     </div>
     <script src="../js/filterElements.js"></script>
-</body>
-
+  </body>
 </html>
