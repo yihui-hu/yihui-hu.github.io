@@ -109,7 +109,7 @@ p.index {
   /* index 'prompts' */
   color: var(--header-color);
   font-family: "Printvetica", Helvetica, Arial;
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.05rem;
 }
 
@@ -153,12 +153,14 @@ body.copy {
 .header {
   color: var(--header-color);
   font-family: "Printvetica", Helvetica, Arial;
+  font-weight: bold;
   font-size: 1.05rem;
 }
 
 .readtime {
   color: var(--header-color);
   font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
   font-size: 1.15rem;
 }
 
@@ -168,6 +170,7 @@ p,
 li {
   color: var(--text-color);
   font-family: "Times New Roman", "Times New Roman", Times, serif;
+  font-weight: normal;
   font-size: 1.2em;
 }
 
@@ -192,6 +195,7 @@ a.main {
   /* general nav links */
   color: var(--index-header-color);
   font-family: "Printvetica", Helvetica, Arial;
+  font-weight: bold;
   font-size: 1.05rem;
   margin-right: 1.5em;
 }
@@ -200,6 +204,7 @@ a.inline {
   /* general nav links */
   color: var(--index-header-color);
   font-family: "Printvetica", Helvetica, Arial;
+  font-weight: bold;
   font-size: 1.05rem;
 }
 
@@ -325,6 +330,7 @@ table th {
 
 button.btn {
   font-family: "Printvetica", Helvetica, Arial;
+  font-weight: bold;
   color: var(--text-color);
   font-size: 0.95rem;
   margin-right: 0.5rem;
@@ -359,7 +365,8 @@ button.btn.active {
 @font-face {
   font-family: "Printvetica";
   src: url("./fonts/Printvetica.woff2") format("woff2"),
-    url("./fonts/Printvetica.woff") format("woff");
+       url("./fonts/Printvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
